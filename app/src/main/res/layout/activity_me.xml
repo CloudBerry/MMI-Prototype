@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="mmi_prototype.app.Me">
+
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_alignParentTop="true"
+                  android:layout_centerHorizontal="true" android:id="@+id/linearLayout4">
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="NYE LØP"
+                android:id="@+id/button5" android:layout_weight="1" android:background="#ccc"
+                android:textColor="#ffffff"/>
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="MINE LØP"
+                android:id="@+id/button8" android:layout_weight="1" android:textColor="#ffffff"
+                android:background="#cccccc"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Meg"
+            android:id="@+id/textView37" android:layout_below="@+id/linearLayout4" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_margin="10dp" android:textSize="30dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:src="@drawable/circle"
+            android:id="@+id/imageView"
+            android:layout_below="@+id/textView37" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="3"
+            android:id="@+id/textView38"
+            android:layout_marginTop="56dp" android:layout_alignTop="@+id/imageView"
+            android:layout_alignRight="@+id/textView37" android:layout_alignEnd="@+id/textView37"
+            android:layout_marginRight="22dp" android:layout_marginEnd="22dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="DAGER IGJEN"
+            android:id="@+id/textView39" android:layout_below="@+id/textView38" android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="2013"
+            android:id="@+id/textView40"
+            android:layout_alignTop="@+id/textView38" android:layout_alignRight="@+id/imageView"
+            android:layout_alignEnd="@+id/imageView" android:layout_marginRight="25dp" android:layout_marginEnd="25dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceSmall" android:text="DAGLIG SNITT"
+              android:id="@+id/textView41"
+              android:layout_alignTop="@+id/textView39" android:layout_alignRight="@+id/imageView"
+              android:layout_alignEnd="@+id/imageView"/>
+</RelativeLayout>

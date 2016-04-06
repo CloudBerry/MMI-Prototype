@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mmi_prototype.app" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Lopinfo"
+            android:label="@string/title_activity_lopinfo" >
+        </activity>
+        <activity
+            android:name=".Lopjoined"
+            android:label="@string/title_activity_lopjoined" >
+        </activity>
+        <activity
+            android:name=".Scoreboard"
+            android:label="@string/title_activity_scoreboard" >
+        </activity>
+        <activity
+            android:name=".Me"
+            android:label="@string/title_activity_me" >
+        </activity>
+    </application>
+
+</manifest>
