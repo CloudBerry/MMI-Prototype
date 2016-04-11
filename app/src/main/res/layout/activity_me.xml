@@ -60,4 +60,29 @@
               android:id="@+id/textView41"
               android:layout_alignTop="@+id/textView39" android:layout_alignRight="@+id/imageView"
               android:layout_alignEnd="@+id/imageView"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="23 Trofeer"
+            android:id="@+id/trofebtn"
+            android:layout_below="@+id/imageView" android:layout_alignLeft="@+id/textView38"
+            android:layout_alignStart="@+id/textView38"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registrer Skritt"
+            android:id="@+id/button12" android:layout_below="@+id/trofebtn" android:layout_alignLeft="@+id/trofebtn"
+            android:layout_alignStart="@+id/trofebtn"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Endre Min Info"
+            android:id="@+id/button13" android:layout_below="@+id/button12" android:layout_alignLeft="@+id/button12"
+            android:layout_alignStart="@+id/button12"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mine Venner"
+            android:id="@+id/minevenner" android:layout_below="@+id/button13" android:layout_alignLeft="@+id/button13"
+            android:layout_alignStart="@+id/button13"/>
 </RelativeLayout>
